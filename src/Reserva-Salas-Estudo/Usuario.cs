@@ -1,8 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Reserva_Salas_Estudo
 {
-    public abstract class Usuario 
+    public abstract class Usuario : IReservaObserver
     {
         private Guid id = Guid.NewGuid();
         private string nome;
