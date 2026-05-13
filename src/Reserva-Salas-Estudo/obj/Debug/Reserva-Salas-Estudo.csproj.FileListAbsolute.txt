@@ -1,0 +1,7 @@
+C:\Users\André\source\repos\Reserva-Salas-Estudo\src\Reserva-Salas-Estudo\bin\Debug\Reserva-Salas-Estudo.exe.config
+C:\Users\André\source\repos\Reserva-Salas-Estudo\src\Reserva-Salas-Estudo\bin\Debug\Reserva-Salas-Estudo.exe
+C:\Users\André\source\repos\Reserva-Salas-Estudo\src\Reserva-Salas-Estudo\bin\Debug\Reserva-Salas-Estudo.pdb
+C:\Users\André\source\repos\Reserva-Salas-Estudo\src\Reserva-Salas-Estudo\obj\Debug\Reserva-Salas-Estudo.csproj.AssemblyReference.cache
+C:\Users\André\source\repos\Reserva-Salas-Estudo\src\Reserva-Salas-Estudo\obj\Debug\Reserva-Salas-Estudo.csproj.CoreCompileInputs.cache
+C:\Users\André\source\repos\Reserva-Salas-Estudo\src\Reserva-Salas-Estudo\obj\Debug\Reserva-Salas-Estudo.exe
+C:\Users\André\source\repos\Reserva-Salas-Estudo\src\Reserva-Salas-Estudo\obj\Debug\Reserva-Salas-Estudo.pdb
