@@ -14,7 +14,7 @@ namespace Reserva_Salas_Estudo
 
         public static RepositorioReservas GetInstance()
         {
-            lock (_padlock) // Garante thread-safety conforme o PDF
+            lock (_padlock) 
             {
                 if (instance == null) instance = new RepositorioReservas();
                 return instance;

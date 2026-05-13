@@ -22,7 +22,7 @@ namespace Reserva_Salas_Estudo
 
         public void Update(string mensagem)
         {
-            Console.WriteLine($"[Notificação para {GetNome()}]: {mensagem}");
+            Console.WriteLine($"  [Notificação para {GetNome()}]: {mensagem}");
         }
 
 
