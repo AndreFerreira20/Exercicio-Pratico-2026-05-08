@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace Reserva_Salas_Estudo
 {
-    internal class Program
+    public interface IReservaObserver
     {
-        static void Main(string[] args)
-        { 
-        }
+        void Update(string mensagem);
     }
 }

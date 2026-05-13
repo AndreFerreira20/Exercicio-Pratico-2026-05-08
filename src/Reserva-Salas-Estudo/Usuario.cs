@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Reserva_Salas_Estudo
 {
-    public abstract class Usuario
+    public abstract class Usuario : IReservaObserver
     {
         private Guid id = Guid.NewGuid();
         private string nome;
@@ -20,7 +20,10 @@ namespace Reserva_Salas_Estudo
             this.tipoUsuario = tipo;
         }
 
-        
+        public void Update(string mensagem)
+        {
+            Console.WriteLine($"[Notificação para {GetNome()}]: {mensagem}");
+        }
 
 
         // Sets e Gets

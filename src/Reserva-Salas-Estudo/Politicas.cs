@@ -33,7 +33,7 @@ namespace Reserva_Salas_Estudo
         
         public List<Reserva> ObterReservasParaCancelar(Reserva candidata, List<Reserva> reservasExistentes)
         {
-            return [];
+            return new List<Reserva>();
         }
     }
     internal class PoliticaPrioridadeDocente : IPoliticaReserva
@@ -75,7 +75,7 @@ namespace Reserva_Salas_Estudo
         {
             // Só faz sentido cancelar algo se quem está reservando é professor
             if (candidata.GetUsuario().GetTipoUsuario() != "professor")
-                return [];
+                return new List<Reserva>();
 
             return GetConflitos(candidata, reservasExistentes)
                 .Where(r => r.GetUsuario() is Estudante)

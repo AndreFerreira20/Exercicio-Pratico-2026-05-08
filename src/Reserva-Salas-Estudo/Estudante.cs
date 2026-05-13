@@ -10,7 +10,7 @@ namespace Reserva_Salas_Estudo
     {
         private string matricula;
 
-        public Estudante(string nome, string email, string matricula) : base(nome, email)
+        public Estudante(string nome, string email, string matricula, string tipo) : base(nome, email, tipo)
         {
             this.matricula = matricula;
         }

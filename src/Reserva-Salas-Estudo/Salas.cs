@@ -17,9 +17,19 @@ namespace Reserva_Salas_Estudo
             
         }
 
-        public override bool Disponivel(int inicio, int fim)
+        public override bool Disponivel(DateTime inicio, DateTime fim)
         {
-                return true;
+            var repo = RepositorioReservas.GetInstance();
+            foreach (var reserva in repo.ListarTodas())
+            {
+                if (reserva.GetSala().GetCodigo() == this.GetCodigo() &&
+                    reserva.GetStatus() == StatusReserva.Confirmada &&
+                    reserva.ConflitaCom(inicio, fim))
+                {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 
@@ -35,15 +45,25 @@ namespace Reserva_Salas_Estudo
             SetCapacidade(capacidade);
             
         }
-            
-        public override bool Disponivel(int inicio, int fim)
+
+        public override bool Disponivel(DateTime inicio, DateTime fim)
         {
-                return true;
+            var repo = RepositorioReservas.GetInstance();
+            foreach (var reserva in repo.ListarTodas())
+            {
+                if (reserva.GetSala().GetCodigo() == this.GetCodigo() &&
+                    reserva.GetStatus() == StatusReserva.Confirmada &&
+                    reserva.ConflitaCom(inicio, fim))
+                {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 
     // Sala para estudos em grupo.
-    internal class SalaGrupo : Sala
+    public class SalaGrupo : Sala
     {
         private bool quadro;
         private int maxGrupos;
@@ -55,9 +75,19 @@ namespace Reserva_Salas_Estudo
              
         }
 
-        public override bool Disponivel(int inicio, int fim)
+        public override bool Disponivel(DateTime inicio, DateTime fim)
         {
-               return true;
+            var repo = RepositorioReservas.GetInstance();
+            foreach (var reserva in repo.ListarTodas())
+            {
+                if (reserva.GetSala().GetCodigo() == this.GetCodigo() &&
+                    reserva.GetStatus() == StatusReserva.Confirmada &&
+                    reserva.ConflitaCom(inicio, fim))
+                {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 }

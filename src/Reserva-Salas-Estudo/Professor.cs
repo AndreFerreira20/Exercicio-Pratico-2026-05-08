@@ -10,7 +10,7 @@ namespace Reserva_Salas_Estudo
     {
         private string siape;
 
-        public Professor(string nome, string email, string siape) : base(nome, email)
+        public Professor(string nome, string email, string siape, string tipo) : base(nome, email, tipo)
         {
             this.siape = siape;
         }

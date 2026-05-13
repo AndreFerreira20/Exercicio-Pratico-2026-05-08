@@ -11,10 +11,11 @@ namespace Reserva_Salas_Estudo
         private string codigo;
         private int capacidade;
 
-        public abstract bool Disponivel(int inicio, int fim);
+        public abstract bool Disponivel(DateTime inicio, DateTime fim);
 
         public void SetCodigo(string codigo) { this.codigo  = codigo; }
         public string GetCodigo() { return this.codigo; }
         public void SetCapacidade(int capacidade) { this.capacidade = capacidade; }
+        public int GetCapacidade() { return this.capacidade; }
     }
 }

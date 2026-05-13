@@ -10,13 +10,13 @@ namespace Reserva_Salas_Estudo
     {
         public static Sala CriarSala(string tipo,string cod, int cap)
         {
-            switch (tipo)
+            switch (tipo.ToLower())
             {
                 case "laboratorio":
                     return new Laboratorio(cod,cap);
-                case "Individual":
+                case "individual":
                     return new SalaIndividual(cod, 1);     
-                case "Grupo":
+                case "grupo":
                     return new SalaGrupo(cod, cap);
                 default:
                     throw new ArgumentException("não existe esse tipo de sala");
