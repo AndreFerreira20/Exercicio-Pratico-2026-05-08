@@ -15,6 +15,6 @@ namespace Reserva_Salas_Estudo
             this.siape = siape;
         }
 
-        public string GetSiape() { return siape; }
+        public string GetSiape() {  return siape; }
     }
 }

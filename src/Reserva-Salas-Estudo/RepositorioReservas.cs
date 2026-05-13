@@ -6,21 +6,25 @@ using System.Threading.Tasks;
 
 namespace Reserva_Salas_Estudo
 {
-    public class RepositorioReservas
+    internal class RepositorioReservas
     {
         private static RepositorioReservas instance;
-        //private static List<Reserva> a;
+        private static readonly object _padlock = new object();
+        private List<Reserva> _reservas = new List<Reserva>();
 
         public static RepositorioReservas GetInstance()
         {
-            if (instance == null)
+            lock (_padlock) 
             {
-                instance = new RepositorioReservas();
+                if (instance == null) instance = new RepositorioReservas();
+                return instance;
             }
-
-            return instance;
         }
 
         private RepositorioReservas() { }
+
+        public void Limpar() => _reservas.Clear();
+        public void Adicionar(Reserva r) => _reservas.Add(r);
+        public List<Reserva> ListarTodas() => _reservas;
     }
 }

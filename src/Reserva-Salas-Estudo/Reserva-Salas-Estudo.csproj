@@ -44,12 +44,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Estudante.cs" />
+    <Compile Include="IPoliticaReserva.cs" />
+    <Compile Include="IReservaObserver.cs" />
+    <Compile Include="Politicas.cs" />
     <Compile Include="Professor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RepositorioReservas.cs" />
+    <Compile Include="Reserva.cs" />
     <Compile Include="Sala.cs" />
+    <Compile Include="SalaFactory.cs" />
     <Compile Include="Salas.cs" />
+    <Compile Include="ServicoDeReserva.cs" />
     <Compile Include="Usuario.cs" />
   </ItemGroup>
   <ItemGroup>

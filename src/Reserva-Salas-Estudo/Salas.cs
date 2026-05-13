@@ -14,7 +14,7 @@ namespace Reserva_Salas_Estudo
         {
             SetCodigo(codigo);
             SetCapacidade(1);
-
+            
         }
 
         public override bool Disponivel(DateTime inicio, DateTime fim)
@@ -43,7 +43,7 @@ namespace Reserva_Salas_Estudo
         {
             SetCodigo(codigo);
             SetCapacidade(capacidade);
-
+            
         }
 
         public override bool Disponivel(DateTime inicio, DateTime fim)
@@ -72,7 +72,7 @@ namespace Reserva_Salas_Estudo
         {
             SetCodigo(codigo);
             SetCapacidade(capacidade);
-
+             
         }
 
         public override bool Disponivel(DateTime inicio, DateTime fim)
