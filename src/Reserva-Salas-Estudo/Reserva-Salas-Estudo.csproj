@@ -43,8 +43,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Estudante.cs" />
+    <Compile Include="IPoliticaReserva.cs" />
+    <Compile Include="Politicas.cs" />
+    <Compile Include="Professor.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reserva.cs" />
+    <Compile Include="Sala.cs" />
+    <Compile Include="SalaFactory.cs" />
+    <Compile Include="Salas.cs" />
+    <Compile Include="Usuario.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

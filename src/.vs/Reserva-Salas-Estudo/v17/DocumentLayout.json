@@ -1,9 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Andr\u00E9\\source\\repos\\Reserva-Salas-Estudo\\",
+  "WorkspaceRootPath": "C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DCEB8E30-7316-4AAD-AE7E-C06C524F0846}|Reserva-Salas-Estudo\\Reserva-Salas-Estudo.csproj|c:\\users\\andr\u00E9\\source\\repos\\reserva-salas-estudo\\reserva-salas-estudo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DCEB8E30-7316-4AAD-AE7E-C06C524F0846}|Reserva-Salas-Estudo\\Reserva-Salas-Estudo.csproj|C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\reserva-salas-estudo\\sala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEB8E30-7316-4AAD-AE7E-C06C524F0846}|Reserva-Salas-Estudo\\Reserva-Salas-Estudo.csproj|solutionrelative:reserva-salas-estudo\\sala.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEB8E30-7316-4AAD-AE7E-C06C524F0846}|Reserva-Salas-Estudo\\Reserva-Salas-Estudo.csproj|C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\reserva-salas-estudo\\salafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEB8E30-7316-4AAD-AE7E-C06C524F0846}|Reserva-Salas-Estudo\\Reserva-Salas-Estudo.csproj|solutionrelative:reserva-salas-estudo\\salafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEB8E30-7316-4AAD-AE7E-C06C524F0846}|Reserva-Salas-Estudo\\Reserva-Salas-Estudo.csproj|C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\reserva-salas-estudo\\professor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEB8E30-7316-4AAD-AE7E-C06C524F0846}|Reserva-Salas-Estudo\\Reserva-Salas-Estudo.csproj|solutionrelative:reserva-salas-estudo\\professor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEB8E30-7316-4AAD-AE7E-C06C524F0846}|Reserva-Salas-Estudo\\Reserva-Salas-Estudo.csproj|C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\reserva-salas-estudo\\salas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEB8E30-7316-4AAD-AE7E-C06C524F0846}|Reserva-Salas-Estudo\\Reserva-Salas-Estudo.csproj|solutionrelative:reserva-salas-estudo\\salas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEB8E30-7316-4AAD-AE7E-C06C524F0846}|Reserva-Salas-Estudo\\Reserva-Salas-Estudo.csproj|C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\reserva-salas-estudo\\estudante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEB8E30-7316-4AAD-AE7E-C06C524F0846}|Reserva-Salas-Estudo\\Reserva-Salas-Estudo.csproj|solutionrelative:reserva-salas-estudo\\estudante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEB8E30-7316-4AAD-AE7E-C06C524F0846}|Reserva-Salas-Estudo\\Reserva-Salas-Estudo.csproj|C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\reserva-salas-estudo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEB8E30-7316-4AAD-AE7E-C06C524F0846}|Reserva-Salas-Estudo\\Reserva-Salas-Estudo.csproj|solutionrelative:reserva-salas-estudo\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEB8E30-7316-4AAD-AE7E-C06C524F0846}|Reserva-Salas-Estudo\\Reserva-Salas-Estudo.csproj|C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\reserva-salas-estudo\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEB8E30-7316-4AAD-AE7E-C06C524F0846}|Reserva-Salas-Estudo\\Reserva-Salas-Estudo.csproj|solutionrelative:reserva-salas-estudo\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEB8E30-7316-4AAD-AE7E-C06C524F0846}|Reserva-Salas-Estudo\\Reserva-Salas-Estudo.csproj|c:\\users\\andr\u00E9pvp\\desktop\\proj\\projeto\\exercicio-pratico-2026-05-08\\src\\reserva-salas-estudo\\politicas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEB8E30-7316-4AAD-AE7E-C06C524F0846}|Reserva-Salas-Estudo\\Reserva-Salas-Estudo.csproj|solutionrelative:reserva-salas-estudo\\politicas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEB8E30-7316-4AAD-AE7E-C06C524F0846}|Reserva-Salas-Estudo\\Reserva-Salas-Estudo.csproj|C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\reserva-salas-estudo\\ipoliticareserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCEB8E30-7316-4AAD-AE7E-C06C524F0846}|Reserva-Salas-Estudo\\Reserva-Salas-Estudo.csproj|solutionrelative:reserva-salas-estudo\\ipoliticareserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCEB8E30-7316-4AAD-AE7E-C06C524F0846}|Reserva-Salas-Estudo\\Reserva-Salas-Estudo.csproj|C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\reserva-salas-estudo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DCEB8E30-7316-4AAD-AE7E-C06C524F0846}|Reserva-Salas-Estudo\\Reserva-Salas-Estudo.csproj|solutionrelative:reserva-salas-estudo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,20 +50,148 @@
       "DocumentGroups": [
         {
           "DockedWidth": 292,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Andr\u00E9\\source\\repos\\Reserva-Salas-Estudo\\Reserva-Salas-Estudo\\Program.cs",
-              "RelativeDocumentMoniker": "Reserva-Salas-Estudo\\Program.cs",
-              "ToolTip": "C:\\Users\\Andr\u00E9\\source\\repos\\Reserva-Salas-Estudo\\Reserva-Salas-Estudo\\Program.cs",
-              "RelativeToolTip": "Reserva-Salas-Estudo\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\Reserva-Salas-Estudo\\Usuario.cs",
+              "RelativeDocumentMoniker": "Reserva-Salas-Estudo\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\Reserva-Salas-Estudo\\Usuario.cs",
+              "RelativeToolTip": "Reserva-Salas-Estudo\\Usuario.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowBcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T20:11:34.077Z",
+              "WhenOpened": "2026-05-13T00:03:44.118Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Estudante.cs",
+              "DocumentMoniker": "C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\Reserva-Salas-Estudo\\Estudante.cs",
+              "RelativeDocumentMoniker": "Reserva-Salas-Estudo\\Estudante.cs",
+              "ToolTip": "C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\Reserva-Salas-Estudo\\Estudante.cs",
+              "RelativeToolTip": "Reserva-Salas-Estudo\\Estudante.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T00:02:38.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Professor.cs",
+              "DocumentMoniker": "C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\Reserva-Salas-Estudo\\Professor.cs",
+              "RelativeDocumentMoniker": "Reserva-Salas-Estudo\\Professor.cs",
+              "ToolTip": "C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\Reserva-Salas-Estudo\\Professor.cs",
+              "RelativeToolTip": "Reserva-Salas-Estudo\\Professor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T00:02:47.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Salas.cs",
+              "DocumentMoniker": "C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\Reserva-Salas-Estudo\\Salas.cs",
+              "RelativeDocumentMoniker": "Reserva-Salas-Estudo\\Salas.cs",
+              "ToolTip": "C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\Reserva-Salas-Estudo\\Salas.cs",
+              "RelativeToolTip": "Reserva-Salas-Estudo\\Salas.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T00:03:32.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SalaFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\Reserva-Salas-Estudo\\SalaFactory.cs",
+              "RelativeDocumentMoniker": "Reserva-Salas-Estudo\\SalaFactory.cs",
+              "ToolTip": "C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\Reserva-Salas-Estudo\\SalaFactory.cs",
+              "RelativeToolTip": "Reserva-Salas-Estudo\\SalaFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T00:03:24.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sala.cs",
+              "DocumentMoniker": "C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\Reserva-Salas-Estudo\\Sala.cs",
+              "RelativeDocumentMoniker": "Reserva-Salas-Estudo\\Sala.cs",
+              "ToolTip": "C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\Reserva-Salas-Estudo\\Sala.cs",
+              "RelativeToolTip": "Reserva-Salas-Estudo\\Sala.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T00:03:03.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Reserva.cs",
+              "DocumentMoniker": "C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\Reserva-Salas-Estudo\\Reserva.cs",
+              "RelativeDocumentMoniker": "Reserva-Salas-Estudo\\Reserva.cs",
+              "ToolTip": "C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\Reserva-Salas-Estudo\\Reserva.cs",
+              "RelativeToolTip": "Reserva-Salas-Estudo\\Reserva.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T22:44:47.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Politicas.cs",
+              "DocumentMoniker": "C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\Reserva-Salas-Estudo\\Politicas.cs",
+              "RelativeDocumentMoniker": "Reserva-Salas-Estudo\\Politicas.cs",
+              "ToolTip": "C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\Reserva-Salas-Estudo\\Politicas.cs",
+              "RelativeToolTip": "Reserva-Salas-Estudo\\Politicas.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAuwCMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T22:41:27.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IPoliticaReserva.cs",
+              "DocumentMoniker": "C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\Reserva-Salas-Estudo\\IPoliticaReserva.cs",
+              "RelativeDocumentMoniker": "Reserva-Salas-Estudo\\IPoliticaReserva.cs",
+              "ToolTip": "C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\Reserva-Salas-Estudo\\IPoliticaReserva.cs",
+              "RelativeToolTip": "Reserva-Salas-Estudo\\IPoliticaReserva.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T22:16:36.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\Reserva-Salas-Estudo\\Program.cs",
+              "RelativeDocumentMoniker": "Reserva-Salas-Estudo\\Program.cs",
+              "ToolTip": "C:\\Users\\Andr\u00E9pvp\\Desktop\\proj\\projeto\\Exercicio-Pratico-2026-05-08\\src\\Reserva-Salas-Estudo\\Program.cs",
+              "RelativeToolTip": "Reserva-Salas-Estudo\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T20:11:34.077Z"
             }
           ]
         },
@@ -37,23 +201,7 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

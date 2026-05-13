@@ -1,0 +1,2 @@
+C:\Users\Andrépvp\Desktop\proj\projeto\Exercicio-Pratico-2026-05-08\src\Reserva-Salas-Estudo\obj\Debug\Reserva-Salas-Estudo.csproj.AssemblyReference.cache
+C:\Users\Andrépvp\Desktop\proj\projeto\Exercicio-Pratico-2026-05-08\src\Reserva-Salas-Estudo\obj\Debug\Reserva-Salas-Estudo.csproj.CoreCompileInputs.cache
