@@ -9,22 +9,27 @@ namespace Reserva_Salas_Estudo
     // Sala para estudo individual. 
     public class SalaIndividual : Sala
     {
-        private bool silenciosa;
-        private int mesas;
 
-        public SalaIndividual(string codigo, int capacidade, List<string> recursos, bool silenciosa, int mesas)
+        public SalaIndividual(string codigo, int capacidade)
         {
             SetCodigo(codigo);
-            SetCapacidade(capacidade);
-            SetRecursos(recursos);
+            SetCapacidade(1);
 
-            this.silenciosa = silenciosa;
-            this.mesas = mesas;
         }
 
-        public override bool Disponivel(int inicio, int fim)
+        public override bool Disponivel(DateTime inicio, DateTime fim)
         {
-            //    return true;
+            var repo = RepositorioReservas.GetInstance();
+            foreach (var reserva in repo.ListarTodas())
+            {
+                if (reserva.GetSala().GetCodigo() == this.GetCodigo() &&
+                    reserva.GetStatus() == StatusReserva.Confirmada &&
+                    reserva.ConflitaCom(inicio, fim))
+                {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 
@@ -34,41 +39,55 @@ namespace Reserva_Salas_Estudo
         private int computadores;
         private List<string> softwares;
 
-        public Laboratorio(string codigo, int capacidade, List<string> recursos, int computadores, List<string> softwares)
+        public Laboratorio(string codigo, int capacidade)
         {
             SetCodigo(codigo);
             SetCapacidade(capacidade);
-            SetRecursos(recursos);
 
-            this.computadores = computadores;
-            this.softwares = softwares;
         }
 
-        public override bool Disponivel(int inicio, int fim)
+        public override bool Disponivel(DateTime inicio, DateTime fim)
         {
-            //    return true;
+            var repo = RepositorioReservas.GetInstance();
+            foreach (var reserva in repo.ListarTodas())
+            {
+                if (reserva.GetSala().GetCodigo() == this.GetCodigo() &&
+                    reserva.GetStatus() == StatusReserva.Confirmada &&
+                    reserva.ConflitaCom(inicio, fim))
+                {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 
     // Sala para estudos em grupo.
-    internal class SalaGrupo : Sala
+    public class SalaGrupo : Sala
     {
         private bool quadro;
         private int maxGrupos;
 
-        public SalaGrupo(string codigo, int capacidade, List<string> recursos, bool quadro, int maxGrupos)
+        public SalaGrupo(string codigo, int capacidade)
         {
             SetCodigo(codigo);
             SetCapacidade(capacidade);
-            SetRecursos(recursos);
 
-            this.quadro = quadro;
-            this.maxGrupos = maxGrupos;
         }
 
-        public override bool Disponivel(int inicio, int fim)
+        public override bool Disponivel(DateTime inicio, DateTime fim)
         {
-            //    return true;
+            var repo = RepositorioReservas.GetInstance();
+            foreach (var reserva in repo.ListarTodas())
+            {
+                if (reserva.GetSala().GetCodigo() == this.GetCodigo() &&
+                    reserva.GetStatus() == StatusReserva.Confirmada &&
+                    reserva.ConflitaCom(inicio, fim))
+                {
+                    return false;
+                }
+            }
+            return true;
         }
     }
 }
